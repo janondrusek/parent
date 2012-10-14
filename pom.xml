@@ -26,9 +26,12 @@
 		<maven.compiler.version>2.5.1</maven.compiler.version>
 		<maven.deploy.version>2.7</maven.deploy.version>
 		<maven.eclipse.version>2.7</maven.eclipse.version>
+		<maven.javadoc.version>2.9</maven.javadoc.version>
+		<maven.install.version>2.4</maven.install.version>
 		<maven.war.version>2.1.1</maven.war.version>
 		<maven.lifecycle.version>1.0.0</maven.lifecycle.version>
 		<maven.resources.version>2.5</maven.resources.version>
+		<maven.source.version>2.2.1</maven.source.version>
 		<maven.surefire.version>2.9</maven.surefire.version>
 	</properties>
 
@@ -90,11 +93,37 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${maven.javadoc.version}</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>${maven.resources.version}</version>
 				<configuration>
 					<encoding>${project.build.sourceEncoding}</encoding>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>${maven.source.version}</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
