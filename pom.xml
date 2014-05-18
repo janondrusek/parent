@@ -26,7 +26,12 @@
 		<!-- Test -->
 		<easymock.version>3.2</easymock.version>
 		<hamcrest.version>1.3</hamcrest.version>
+		<jacoco.version>0.7.1.201405082137</jacoco.version>
+		<jmockit.version>1.7</jmockit.version>
+		<jmockit-coverage.version>0.999.26</jmockit-coverage.version>
 		<junit.version>4.11</junit.version>
+		<junit.version>4.11</junit.version>
+		<openpojo.version>0.5.0</openpojo.version>
 		<testng.version>6.8.8</testng.version>
 		<!-- Geronimo spec -->
 		<geronimo.1.4.javamail.version>1.7.1</geronimo.1.4.javamail.version>
@@ -40,6 +45,7 @@
 		<maven.eclipse.version>2.9</maven.eclipse.version>
 		<maven.failsafe.version>2.17</maven.failsafe.version>
 		<maven.javadoc.version>2.9.1</maven.javadoc.version>
+		<maven.jacoco.version>${jacoco.version}</maven.jacoco.version>
 		<maven.install.version>2.5.1</maven.install.version>
 		<maven.war.version>2.4</maven.war.version>
 		<maven.lifecycle.version>1.0.0</maven.lifecycle.version>
