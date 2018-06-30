@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>eu.freshmen</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<packaging>pom</packaging>
 	<name>Parent</name>
 	<description>Maven project Parent. Provides common properties (versions, defaults, ...), plugin settings and dependencies.</description>
@@ -25,15 +25,15 @@
 		<logback.version>1.1.3</logback.version>
 		<slf4j.version>1.7.14</slf4j.version>
 		<!-- Test -->
-		<easymock.version>3.5</easymock.version>
+		<easymock.version>3.6</easymock.version>
 		<hamcrest.version>1.3</hamcrest.version>
-		<jacoco.version>0.7.9</jacoco.version>
-		<jmockit.version>1.36</jmockit.version>
-		<org.jmockit-coverage.version>${jmockit.version}</org.jmockit-coverage.version>
+		<jacoco.version>0.8.1</jacoco.version>
+		<jmockit.version>1.40</jmockit.version>
+		<org.jmockit-coverage.version>1.23</org.jmockit-coverage.version>
 		<jmockit-coverage.version>0.999.27</jmockit-coverage.version>
 		<junit.version>4.12</junit.version>
-		<openpojo.version>0.8.6</openpojo.version>
-		<testng.version>6.11</testng.version>
+		<openpojo.version>0.8.10</openpojo.version>
+		<testng.version>6.14.3</testng.version>
 		<!-- Geronimo spec -->
 		<geronimo.1.4.javamail.version>1.7.1</geronimo.1.4.javamail.version>
 		<geronimo.2.5.version>1.1.2</geronimo.2.5.version>
