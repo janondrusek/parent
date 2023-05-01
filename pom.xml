@@ -33,7 +33,7 @@
 		<jmockit-coverage.version>0.999.27</jmockit-coverage.version>
 		<junit.version>4.13.2</junit.version>
 		<openpojo.version>0.8.13</openpojo.version>
-		<testng.version>7.4.0</testng.version>
+		<testng.version>7.7.0</testng.version>
 		<!-- Geronimo spec -->
 		<geronimo.1.4.javamail.version>1.7.1</geronimo.1.4.javamail.version>
 		<geronimo.2.5.version>1.2</geronimo.2.5.version>
